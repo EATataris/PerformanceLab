@@ -29,7 +29,7 @@ def point_position(center, radius, point):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Для запуска: python .task2\\task2.py файл1 файл2")
+        print("Для запуска: python .task2\\task2.py .task2\\файл1.txt .task2\\файл2.txt")
         sys.exit(1)
 
     circle_data = read_circle_data(sys.argv[1])

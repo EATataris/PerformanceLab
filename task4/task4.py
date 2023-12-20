@@ -18,7 +18,7 @@ def min_moves_to_equal(nums):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Для запуска: python .\\task4\\task4.py .\\task4\\data.txt")
+        print("Для запуска: python task4\\task4.py task4\\data.txt")
         sys.exit(1)
 
     input_file = sys.argv[1]
